@@ -1,0 +1,182 @@
+body {
+  padding: 0%;
+  margin: 0;
+  background-color:rgb(255 255 255);
+
+}
+.container{
+  background-image: url('imagem/pexels-eberhard-grossgasteiger-2310713.jpg');
+  color: white;
+  border-radius: 8%;
+  width: 350px;
+  height: 350px;
+  padding: 0%;
+  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;  
+  flex-direction: column;
+  flex-wrap: nowrap; 
+  background-repeat: no-repeat;
+  background-size:100%;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  padding: 3em;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top:135px;
+
+}
+.cidade{
+  text-decoration-thickness: from-font;
+  font-weight: normal;
+  -webkit-font-smoothing: subpixel-antialiased;
+  align-items: center;
+  font-style: italic;
+  font-size: 23px;
+
+
+}
+.header{
+  color: white;
+  text-align: center;
+  margin-top: -22px;
+  height: 800px;
+ background-color: rgb(167, 194, 211);
+
+}
+h3{
+  font-size: 22px;
+
+}
+
+.temp-text{
+  margin-top: 100px;
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+  margin-left: -10px;
+
+ 
+
+}
+.sol{
+  color: yellow;
+  padding: 11px;
+  margin-left: 1px;
+ 
+
+}
+.temperatura
+{
+  color: rgb(255, 255, 255);
+  margin-left: -33px;
+  padding: 11px;
+  margin-left: 1px;
+
+}
+.temperatura2
+{
+  color: rgb(80, 79, 79);
+  margin-left: -33px;
+  padding: 11px;
+  margin-left: 1px;
+
+}
+.FaUmbrella{
+
+  margin-left: -33px;
+  padding: 21px;
+  margin-left: 2px;
+
+}
+.FaCloudShowersHeavy{
+
+  margin-left: -33px;
+  padding: 21px;
+  margin-left: 0;
+}
+
+.dia 
+{  
+  
+  font-size: 18px;
+  padding: 10px;
+}
+.hora
+{
+  font-size: 18px;
+  padding: 10px;
+}
+.previsão-texto
+{
+    
+  font-size: 15px;
+  padding-top: 6%;
+  font-style: oblique;
+  -webkit-text-stroke-width:inherit;
+
+}
+
+@media (min-width: 1600px)
+{
+  .lorem
+  {
+    font-size: 18px;
+    padding-top: 60%;
+  
+  
+  }
+  .lorem1
+  {
+    font-size: 20px;
+    padding-top: 0%;
+    
+  
+  }
+}
+
+@media (max-width: 1600px)
+{
+  .lorem
+  {
+    font-size: 18px;
+    padding-top: 60%;
+  
+  
+  }
+  .lorem1
+  {
+    font-size: 20px;
+    padding-top: 0%;
+    
+  
+  }
+}
+
+@media (max-width: 690px)
+{
+
+  .lorem1
+  {
+    font-size: 18px;
+    padding-top: -20px;
+    max-width: 1200px;  
+
+  
+  }
+  .lorem
+  {
+    font: 16px/1.4 sans-serif;  
+  max-width: 1200px;  
+  margin: 0 auto;
+  padding: 10px;
+  padding-top: 460px;
+  
+
+  
+  
+  }
+}
